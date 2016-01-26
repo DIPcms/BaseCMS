@@ -17,7 +17,7 @@ application:
 doctrine:
         user: root
         password: 
-        dbname: cemvin
+        dbname: cms
         metadata:
             App: %appDir%
 
