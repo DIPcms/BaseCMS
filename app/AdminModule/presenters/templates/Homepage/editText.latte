@@ -1,0 +1,29 @@
+{block content}
+<div class='content'>
+    <div class="register-logo">
+        <a n:href="Homepage:editText $text->name"><b>{$text->name|upper}</b>{$text->page|lower}</a>
+    </div>
+    <div class="box">
+     
+      <div class="register-box-body">
+
+        <form action="" method="post" n:name="editTextForm">
+            <div n:if="$form->hasErrors()" n:foreach="$form->errors as $error" class="alert alert-danger alert-dismissible">
+                {$error}
+            </div>
+            <div class="form-group has-feedback">
+              {label text/}
+              {input text}
+            </div>
+            <script>
+                CKEDITOR.replace( 'ckeditor' );
+            </script>
+            <div class="row">
+                <div class="col-lg-4">
+                  {input submit}
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+</div>
