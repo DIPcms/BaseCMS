@@ -20,7 +20,7 @@ How to use [doctrine?](https://github.com/Kdyby/Doctrine/blob/master/docs/en/ind
     doctrine:
         user: root
         password: 
-        dbname: sandmin
+        dbname: cms
         metadata:
             App: %appDir%
 ```
