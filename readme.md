@@ -13,7 +13,7 @@ How to use [composer?](https://getcomposer.org/doc/00-intro.md)
 
 
 
-Create a database called "sandmin" database settings can be changed in the app/config/config.neon <br />
+Create a database called "cms" database settings can be changed in the app/config/config.neon <br />
 How to use [doctrine?](https://github.com/Kdyby/Doctrine/blob/master/docs/en/index.md)
 
 ```yaml
